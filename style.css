@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Lato:wght@300&family=Montserrat:wght@300&family=Open+Sans:wght@700&family=Poppins:wght@400;500&family=Raleway&family=Work+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #FBE4E4; */
+}
+
+body:not(table){
+    background-color: #FBE4E4;
+}
+
+#btn{
+    display: inline;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 750px;
+}
+
+.head{
+    padding-left: 120px;  
+}
+
+#myButton, #but{
+    /* Button styles */
+    color: #d63231;
+    display: inline-flex; /* Make the button a flex container to align items,We use display: inline-flex; on the button to make it a flex container, allowing us to align the items (image and text) vertically in the center using align-items: center;. */
+    align-items: center; /* Vertically align items in the center*/
+    font-weight: 900;
+    border: none;
+    background-color: #FBE4E4;
+}
+
+#but{
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 11px;
+}
+
+.main{
+    text-align: center;
+}
+
+.abc{
+    padding-top: 80px;
+    font-size: x-large;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+table{
+    border: 1px solid none;
+    border-collapse: collapse;
+    margin-left: 325px;
+    padding-top: 20px;
+    transform: scale(1.2); /* Increase the size by 20% (adjust as needed) */
+}
+
+tr, th, td{
+    padding: 11px;
+}
+
+th{
+    background-color: #D63231;
+    color: #F8E0E1;
+}
+
+td span{
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(odd){
+    background-color: #F3F3F3;
+}
+
+tr:nth-child(even){
+    background-color: #FFFFFF;
+}
